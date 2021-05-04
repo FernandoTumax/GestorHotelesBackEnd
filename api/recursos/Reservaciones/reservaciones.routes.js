@@ -7,13 +7,13 @@ const validarReservacion = require("./reservaciones.validate")
 const reservationController = require("./reservaciones.controller");
 const userController = require("./../Usuarios/usuarios.controller");
 const hotelController = require("./../Hoteles/hoteles.controller");
-const roomController = require('./../Habitaciones/habitacion.controller');
+const roomController = require("./../Habitaciones/habitacion.controller");
 const procesarErrores = require("./../../libs/errorHandler").procesarErrores;
 const {
   FechaIncorrecta,
   ReservacionNoExiste,
   HotelNoExiste,
-  HabitacionNoExiste
+  HabitacionNoExiste,
 } = require("./reservaciones.error");
 
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
@@ -54,7 +54,7 @@ reservationRouter.post(
 
     hotel = await hotelController.foundOneHotel({ id: idHotel });
 
-    room = await roomController.foundOneRoom({ id: idRoom});
+    room = await roomController.foundOneRoom({ id: idRoom });
 
     if (!hotel) {
       log.info("El hotel no existe en la base de datos");
@@ -63,13 +63,15 @@ reservationRouter.post(
       );
     }
 
-    if(!room){
-      log.info('La habitacion no existe')
-      throw new HabitacionNoExiste()
+    if (!room) {
+      log.info("La habitacion no existe");
+      throw new HabitacionNoExiste();
     }
-    roomController.updateAvailability(idRoom, disp).then((estadoActualizado) => {
-      log.info(`El estado de la habitacion con [${idRoom}] fue actualizado`)
-    })
+    roomController
+      .updateAvailability(idRoom, disp)
+      .then((estadoActualizado) => {
+        log.info(`El estado de la habitacion con [${idRoom}] fue actualizado`);
+      });
 
     reservationController
       .setReservation(nuevaReservacion, fechaIngreso, fechaSalida)
@@ -89,9 +91,18 @@ reservationRouter.post(
                   log.info(
                     `El hotel con id [${idHotel}] fue actualizado con una reservacion de un cliente`
                   );
-                  reservationController.setRoom(nuevaReservacionCreada.id, idRoom).then((habitacionSeteada) => {
-                    log.info(`La reservacion ya tiene habitacion, su id es [${idRoom}]`)
-                  })
+                  reservationController
+                    .setRoom(nuevaReservacionCreada.id, idRoom)
+                    .then((habitacionSeteada) => {
+                      log.info(
+                        `La reservacion ya tiene habitacion, su id es [${idRoom}]`
+                      );
+                    });
+                  hotelController
+                    .setSolicitud(idHotel)
+                    .then((solicitudActualizada) => {
+                      log.info(`Se ha incrementado las solicitudes del hotel`);
+                    });
                 });
             });
         }
