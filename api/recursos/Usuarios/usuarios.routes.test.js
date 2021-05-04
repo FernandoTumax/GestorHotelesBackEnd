@@ -16,7 +16,7 @@ let ejemplosUsuarios = [
     name: "josue",
     lastname: "tumax",
     password: "ejemplo12",
-    rol: "ROL_ADMIN",
+    rol: "ROL_ADMINAPP",
   },
   {
     username: "ejemplo12",
@@ -172,7 +172,7 @@ describe("Usuarios", () => {
               rol: "ROL_ADMIN",
             })
             .end((err, res) => {
-              expect(res.status).toBe(409);
+              expect(res.status).toBe(400);
               expect(typeof res.text).toBe("string");
               done();
             });
@@ -697,7 +697,7 @@ describe("Usuarios", () => {
       });
     });
 
-    it('Si el id del usuario son iguales y entrega el token valido, se eliminara correctamente su cuenta', done => {
+    it("Si el id del usuario son iguales y entrega el token valido, se eliminara correctamente su cuenta", (done) => {
       let usuarioEliminarCorrectamente = {
         username: "ejemplo14",
         email: "ejemplo14@gmail.com",
@@ -707,8 +707,8 @@ describe("Usuarios", () => {
         rol: "ROL_CLIENT",
       };
       Usuario.deleteMany({}, (err) => {
-        if(err){
-          done(err)
+        if (err) {
+          done(err);
         }
         Usuario({
           username: usuarioEliminarCorrectamente.username,
@@ -716,34 +716,34 @@ describe("Usuarios", () => {
           name: usuarioEliminarCorrectamente.name,
           lastname: usuarioEliminarCorrectamente.lastname,
           password: bcrypt.hashSync(usuarioEliminarCorrectamente.password, 10),
-          rol: usuarioEliminarCorrectamente.rol
-        }).save()
-          .then(usuario => {
-            idDeUsuarioExistenteEliminar = usuario._id
+          rol: usuarioEliminarCorrectamente.rol,
+        })
+          .save()
+          .then((usuario) => {
+            idDeUsuarioExistenteEliminar = usuario._id;
           })
-          .catch(err => {
-            log.error(err)
-          })
-          request(app)
-          .post('/usuarios/login')
+          .catch((err) => {
+            log.error(err);
+          });
+        request(app)
+          .post("/usuarios/login")
           .send({
             username: usuarioEliminarCorrectamente.username,
-            password: usuarioEliminarCorrectamente.password
+            password: usuarioEliminarCorrectamente.password,
           })
           .end((err, res) => {
             expect(res.status).toBe(200);
-            authToken = res.body.token
+            authToken = res.body.token;
             request(app)
               .delete(`/usuarios/${idDeUsuarioExistenteEliminar}`)
-              .set('Authorization', `Bearer ${authToken}`)
+              .set("Authorization", `Bearer ${authToken}`)
               .end((err, res) => {
-                expect(res.status).toBe(200)
-                expect(typeof res.text).toBe('string')
-                done()
-              })
-          })
-      })
-    })
-
+                expect(res.status).toBe(200);
+                expect(typeof res.text).toBe("string");
+                done();
+              });
+          });
+      });
+    });
   });
 });

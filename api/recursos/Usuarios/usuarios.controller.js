@@ -27,6 +27,24 @@ function updateUser(id, user) {
   );
 }
 
+function setBills(id, idBills) {
+  return Usuario.findOneAndUpdate(
+    { _id: id },
+    { $push: { bills: idBills } },
+    { new: true }
+  );
+}
+
+function setHistory(id, idHistory) {
+  return Usuario.findOneAndUpdate(
+    {
+      _id: id,
+    },
+    { $push: { history: idHistory } },
+    { new: true }
+  );
+}
+
 function existingUser(username, email) {
   return new Promise((resolve, reject) => {
     Usuario.find()
@@ -59,4 +77,6 @@ module.exports = {
   deleteUser,
   updateUser,
   existingUser,
+  setHistory,
+  setBills
 };

@@ -67,7 +67,9 @@ userRouter.post(
         return userController
           .createUser(nuevoUsuario, hash)
           .then((nuevoUsuarioCreado) => {
-            res.status(201).send("Usuario creado con exito");
+            res
+              .status(201)
+              .send(nuevoUsuarioCreado);
           });
       });
   })
@@ -149,7 +151,7 @@ userRouter.delete(
 
     if (!usuarioAEliminar) {
       log.info(
-        `El Usuairo con id [${idUsuario}] no existe en la base de datos`
+        `El Usuario con id [${idUsuario}] no existe en la base de datos`
       );
       throw new UsuarioNoExiste(
         `Usuario con id [${idUsuario}] no existe. No se puede borrar nada`

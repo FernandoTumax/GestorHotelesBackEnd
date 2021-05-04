@@ -9,6 +9,12 @@ const authJWT = require("./api/libs/auth");
 const config = require("./config");
 const errorHandler = require("./api/libs/errorHandler");
 const userRouter = require("./api/recursos/Usuarios/usuarios.routes");
+const reservationRouter = require("./api/recursos/Reservaciones/reservaciones.routes");
+const servicesRouter = require("./api/recursos/Servicios/servicios.routes");
+const eventoRouter = require("./api/recursos/eventos/eventos.routes");
+const roomRouter = require('./api/recursos/Habitaciones/habitacion.routes')
+const billRouter = require('./api/recursos/facturas/factura.routes');
+const hotelRouter = require('./api/recursos/Hoteles/hoteles.routes');
 
 passport.use(authJWT);
 
@@ -35,6 +41,12 @@ app.use(
 app.use(passport.initialize());
 
 app.use("/usuarios", userRouter);
+app.use("/reservaciones", reservationRouter);
+app.use("/servicios", servicesRouter);
+app.use("/eventos", eventoRouter);
+app.use('/habitaciones', roomRouter);
+app.use('/facturas', billRouter);
+app.use('/hoteles', hotelRouter);
 
 app.use(errorHandler.procesarErroresDeDB);
 if (config.ambiente === "prod") {

@@ -7,7 +7,9 @@ const blueprintUser = Joi.object({
   email: Joi.string().email().required(),
   name: Joi.string().max(100).required(),
   lastname: Joi.string().max(100).required(),
-  rol: Joi.string().valid("ROL_ADMIN", "ROL_CLIENT").required(),
+  rol: Joi.string()
+    .valid("ROL_ADMINAPP", "ROL_CLIENT", "ROL_ADMINHOTEL")
+    .required(),
 });
 
 let validarUsuario = (req, res, next) => {

@@ -6,11 +6,20 @@ const hotelSchema = new mongoose.Schema({
         minlength: 1,
         required: [true, 'Hotel debe tener un nombre']
     },
-    reservation: [{type: mongoose.Schema.ObjectId, ref:'reservation'}],
-    room : [{type: mongoose.Schema.ObjectId, ref:'room'}],
-    event: [{type: mongoose.Schema.ObjectId, ref:'event'}],
+    direccion: {
+        type: String,
+        minlength: 1,
+        required: [true, 'Hotel debe tener una direccion']
+    },
+    solicitud: {
+        type: Number,
+        required: [true, 'Hotel debe tener las solicitudes']
+    },
+    reservation: [{type: mongoose.Schema.ObjectId, ref:'reservacion'}],
+    room : [{type: mongoose.Schema.ObjectId, ref:'habitacion'}],
+    event: [{type: mongoose.Schema.ObjectId, ref:'eventos'}],
     user: [{type: mongoose.Schema.ObjectId, ref:'usuario'}],
-    admin: [{type: mongoose.Schema.ObjectId, ref: 'usuario'}]
+    admin: [{type: mongoose.Schema.ObjectId, ref:'usuario'}]
 })
 
 module.exports = mongoose.model('hotel', hotelSchema)

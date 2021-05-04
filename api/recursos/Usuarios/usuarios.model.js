@@ -26,7 +26,13 @@ const usuarioSchema = new mongoose.Schema({
         minlength: 1,
         required: [true, 'Usuario debe tener un email']
     },
-    bills: [{type: mongoose.Schema.ObjectId, ref:'bills'}]
+    rol: {
+        type: String,
+        minlength: 1,
+        required: [true, 'Usuario debe tener un rol']
+    },
+    bills: [{type: mongoose.Schema.ObjectId, ref:'factura'}],
+    history: [{type: mongoose.Schema.ObjectId, ref:'reservacion'}]
 })
 
 module.exports = mongoose.model('usuario', usuarioSchema)
