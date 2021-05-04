@@ -68,7 +68,7 @@ reservationRouter.post(
       throw new HabitacionNoExiste();
     }
     roomController
-      .updateAvailability(idRoom, disp)
+      .updateAvailability(idRoom)
       .then((estadoActualizado) => {
         log.info(`El estado de la habitacion con [${idRoom}] fue actualizado`);
       });
@@ -106,8 +106,6 @@ reservationRouter.post(
                 });
             });
         }
-        log.error("La reservacion no se pudo hacer");
-        throw new FechaIncorrecta();
       });
   })
 );

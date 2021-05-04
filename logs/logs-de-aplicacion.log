@@ -9160,3 +9160,117 @@ info: 2021-05-04T00:06:39.252Z Servicio creado
 info: 2021-05-04T00:06:39.254Z ::1 - POST /servicios/6090885229686a1e08dccba1/create HTTP/1.1 201 25 - 33.808 ms
 info: 2021-05-04T00:06:39.259Z La habitacion con id [6090885229686a1e08dccba1] fue actualizada con su nuevo servicio
 info: 2021-05-04T00:07:25.640Z Escuchando en el puerto 3000
+info: 2021-05-04T03:01:47.767Z Escuchando en el puerto 3000
+info: 2021-05-04T03:01:59.626Z Usuario ejemplo8888 suministro un token valido. Autenticacion completada.
+info: 2021-05-04T03:01:59.658Z Reservacion creada con exito
+error: 2021-05-04T03:01:59.659Z La reservacion no se pudo hacer
+info: 2021-05-04T03:01:59.661Z ::1 - POST /reservaciones/60908762815ac95480a92981/6090885229686a1e08dccba1/set HTTP/1.1 200 185 - 47.905 ms
+info: 2021-05-04T03:01:59.666Z el usuario con id [60908676815ac95480a9297f] fue actualizado con su nueva reservacion y agregada a su historial
+info: 2021-05-04T03:01:59.669Z El hotel con id [60908762815ac95480a92981] fue actualizado con una reservacion de un cliente
+info: 2021-05-04T03:01:59.672Z La reservacion ya tiene habitacion, su id es [6090885229686a1e08dccba1]
+info: 2021-05-04T03:01:59.716Z Se ha incrementado las solicitudes del hotel
+error: 2021-05-04T03:03:53.345Z uncaughtException: dis is not defined
+ReferenceError: dis is not defined
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Habitaciones\habitacion.model.js:4:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Habitaciones\habitacion.controller.js:1:20)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Reservaciones\reservaciones.routes.js:10:24)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30) {"error":{},"stack":"ReferenceError: dis is not defined\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Habitaciones\\habitacion.model.js:4:5)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Habitaciones\\habitacion.controller.js:1:20)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Reservaciones\\reservaciones.routes.js:10:24)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)","exception":true,"date":"Mon May 03 2021 21:03:53 GMT-0600 (hora estándar central)","process":{"pid":20560,"uid":null,"gid":null,"cwd":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.4","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js"],"memoryUsage":{"rss":61255680,"heapTotal":35819520,"heapUsed":26316584,"external":20224820,"arrayBuffers":18663097}},"os":{"loadavg":[0,0,0],"uptime":482559},"trace":[{"column":5,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Habitaciones\\habitacion.model.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":20,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Habitaciones\\habitacion.controller.js","function":null,"line":1,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Reservaciones\\reservaciones.routes.js","function":null,"line":10,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false}]}
+error: 2021-05-04T03:03:56.266Z uncaughtException: disponibilidad is not defined
+ReferenceError: disponibilidad is not defined
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Habitaciones\habitacion.model.js:4:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Habitaciones\habitacion.controller.js:1:20)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Reservaciones\reservaciones.routes.js:10:24)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30) {"error":{},"stack":"ReferenceError: disponibilidad is not defined\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Habitaciones\\habitacion.model.js:4:5)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Habitaciones\\habitacion.controller.js:1:20)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Reservaciones\\reservaciones.routes.js:10:24)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)","exception":true,"date":"Mon May 03 2021 21:03:56 GMT-0600 (hora estándar central)","process":{"pid":17272,"uid":null,"gid":null,"cwd":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.4","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js"],"memoryUsage":{"rss":61292544,"heapTotal":35819520,"heapUsed":26326656,"external":20224820,"arrayBuffers":18663097}},"os":{"loadavg":[0,0,0],"uptime":482562},"trace":[{"column":5,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Habitaciones\\habitacion.model.js","function":null,"line":4,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":20,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Habitaciones\\habitacion.controller.js","function":null,"line":1,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Reservaciones\\reservaciones.routes.js","function":null,"line":10,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false}]}
+info: 2021-05-04T03:04:09.858Z Escuchando en el puerto 3000
+info: 2021-05-04T03:04:17.795Z Escuchando en el puerto 3000
+info: 2021-05-04T03:04:32.457Z Escuchando en el puerto 3000
+info: 2021-05-04T03:04:38.579Z Escuchando en el puerto 3000
+info: 2021-05-04T03:04:44.702Z Usuario ejemplo8888 suministro un token valido. Autenticacion completada.
+info: 2021-05-04T03:04:44.735Z Reservacion creada con exito
+error: 2021-05-04T03:04:44.736Z La reservacion no se pudo hacer
+info: 2021-05-04T03:04:44.738Z ::1 - POST /reservaciones/60908762815ac95480a92981/6090885229686a1e08dccba1/set HTTP/1.1 200 185 - 49.936 ms
+info: 2021-05-04T03:04:44.742Z el usuario con id [60908676815ac95480a9297f] fue actualizado con su nueva reservacion y agregada a su historial
+info: 2021-05-04T03:04:44.744Z El hotel con id [60908762815ac95480a92981] fue actualizado con una reservacion de un cliente
+info: 2021-05-04T03:04:44.747Z Se ha incrementado las solicitudes del hotel
+info: 2021-05-04T03:04:44.748Z La reservacion ya tiene habitacion, su id es [6090885229686a1e08dccba1]
+info: 2021-05-04T03:05:14.435Z Usuario ejemplo8888 suministro un token valido. Autenticacion completada.
+info: 2021-05-04T03:05:14.449Z Reservacion creada con exito
+error: 2021-05-04T03:05:14.450Z La reservacion no se pudo hacer
+info: 2021-05-04T03:05:14.450Z ::1 - POST /reservaciones/60908762815ac95480a92981/6090885229686a1e08dccba1/set HTTP/1.1 200 185 - 16.584 ms
+info: 2021-05-04T03:05:14.455Z el usuario con id [60908676815ac95480a9297f] fue actualizado con su nueva reservacion y agregada a su historial
+info: 2021-05-04T03:05:14.458Z El hotel con id [60908762815ac95480a92981] fue actualizado con una reservacion de un cliente
+info: 2021-05-04T03:05:14.462Z La reservacion ya tiene habitacion, su id es [6090885229686a1e08dccba1]
+info: 2021-05-04T03:05:14.463Z Se ha incrementado las solicitudes del hotel
+info: 2021-05-04T03:07:20.638Z Escuchando en el puerto 3000
+info: 2021-05-04T03:07:22.055Z Escuchando en el puerto 3000
+info: 2021-05-04T03:07:33.612Z Escuchando en el puerto 3000
+info: 2021-05-04T03:07:36.404Z Escuchando en el puerto 3000
+info: 2021-05-04T03:07:37.724Z Escuchando en el puerto 3000
+info: 2021-05-04T03:07:40.510Z Escuchando en el puerto 3000
+error: 2021-05-04T03:08:07.151Z uncaughtException: Unexpected identifier
+C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Habitaciones\habitacion.controller.js:23
+      $push: { disponibilidad: ""data"" } 
+                                 ^^^^
+
+SyntaxError: Unexpected identifier
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Reservaciones\reservaciones.routes.js:10:24)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\index.js:12:27)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30) {"error":{},"stack":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Habitaciones\\habitacion.controller.js:23\n      $push: { disponibilidad: \"\"data\"\" } \n                                 ^^^^\n\nSyntaxError: Unexpected identifier\n    at wrapSafe (internal/modules/cjs/loader.js:979:16)\n    at Module._compile (internal/modules/cjs/loader.js:1027:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Reservaciones\\reservaciones.routes.js:10:24)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js:12:27)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)","exception":true,"date":"Mon May 03 2021 21:08:07 GMT-0600 (hora estándar central)","process":{"pid":11228,"uid":null,"gid":null,"cwd":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.4","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js"],"memoryUsage":{"rss":61231104,"heapTotal":35557376,"heapUsed":26287432,"external":20224820,"arrayBuffers":18663097}},"os":{"loadavg":[0,0,0],"uptime":482813},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":979,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1027,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":24,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Reservaciones\\reservaciones.routes.js","function":null,"line":10,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":27,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js","function":null,"line":12,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false}]}
+info: 2021-05-04T03:08:09.830Z Escuchando en el puerto 3000
+info: 2021-05-04T03:08:13.936Z Escuchando en el puerto 3000
+info: 2021-05-04T03:08:17.613Z Escuchando en el puerto 3000
+info: 2021-05-04T03:08:25.055Z Escuchando en el puerto 3000
+info: 2021-05-04T03:08:37.404Z Escuchando en el puerto 3000
+info: 2021-05-04T03:08:42.778Z Usuario ejemplo8888 suministro un token valido. Autenticacion completada.
+info: 2021-05-04T03:08:42.817Z Reservacion creada con exito
+info: 2021-05-04T03:08:42.819Z ::1 - POST /reservaciones/60908762815ac95480a92981/6090885229686a1e08dccba1/set HTTP/1.1 200 185 - 54.339 ms
+info: 2021-05-04T03:08:42.822Z el usuario con id [60908676815ac95480a9297f] fue actualizado con su nueva reservacion y agregada a su historial
+info: 2021-05-04T03:08:42.825Z El hotel con id [60908762815ac95480a92981] fue actualizado con una reservacion de un cliente
+info: 2021-05-04T03:08:42.829Z Se ha incrementado las solicitudes del hotel
+info: 2021-05-04T03:08:42.830Z La reservacion ya tiene habitacion, su id es [6090885229686a1e08dccba1]
+info: 2021-05-04T03:12:18.047Z Escuchando en el puerto 3000
+info: 2021-05-04T03:12:24.935Z Usuario ejemplo8888 suministro un token valido. Autenticacion completada.
+info: 2021-05-04T03:12:24.958Z El estado de la habitacion con [6090885229686a1e08dccba1] fue actualizado
+info: 2021-05-04T03:12:24.964Z Reservacion creada con exito
+info: 2021-05-04T03:12:24.967Z ::1 - POST /reservaciones/60908762815ac95480a92981/6090885229686a1e08dccba1/set HTTP/1.1 200 185 - 43.849 ms
+info: 2021-05-04T03:12:24.969Z el usuario con id [60908676815ac95480a9297f] fue actualizado con su nueva reservacion y agregada a su historial
+info: 2021-05-04T03:12:24.972Z El hotel con id [60908762815ac95480a92981] fue actualizado con una reservacion de un cliente
+info: 2021-05-04T03:12:24.975Z Se ha incrementado las solicitudes del hotel
+info: 2021-05-04T03:12:24.976Z La reservacion ya tiene habitacion, su id es [6090885229686a1e08dccba1]
