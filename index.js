@@ -3,6 +3,7 @@ const bodyparser = require("body-parser");
 const morgan = require("morgan");
 const mongoose = require("mongoose");
 const passport = require("passport");
+const cors = require('cors')
 
 const logger = require("./utils/logger");
 const authJWT = require("./api/libs/auth");
@@ -28,7 +29,10 @@ mongoose.set("useFindAndModify", false);
 
 const app = express();
 
+app.use(bodyparser.urlencoded({extended: false}))
 app.use(bodyparser.json());
+
+app.use(cors());
 
 app.use(
   morgan("short", {

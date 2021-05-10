@@ -28,6 +28,18 @@ function validarId(req, res, next) {
   }
   next();
 }
+function validarIds(req, res, next) {
+  let id = req.params.idR;
+
+  if (id.match(/^[a-fA-F0-9]{24}$/) === null) {
+    res.status(400).send(`El id ${id} suministrado en el URL no es valido`);
+    return;
+  }
+  next();
+}
+
+
+
 
 reservationRouter.get(
   "/",
@@ -68,7 +80,7 @@ reservationRouter.post(
       throw new HabitacionNoExiste();
     }
     roomController
-      .updateAvailability(idRoom)
+      .updateAvailability(idRoom, disp)
       .then((estadoActualizado) => {
         log.info(`El estado de la habitacion con [${idRoom}] fue actualizado`);
       });
@@ -111,11 +123,13 @@ reservationRouter.post(
 );
 
 reservationRouter.delete(
-  "/:id",
-  [jwtAuthenticate, validarId],
+  "/:idR/:idH",
+  [jwtAuthenticate, validarIds],
   procesarErrores(async (req, res) => {
-    let idReservacion = req.params.id;
+    let idReservacion = req.params.idR;
     let reservacionEliminar;
+    let idRoom = req.params.idH;
+    let disp = "Disponible";
 
     reservacionEliminar = await reservationController.foundOneReservacion({
       id: idReservacion,
@@ -134,7 +148,12 @@ reservationRouter.delete(
     log.info(
       `La reservacion con [${idReservacion}] ha sido cancelada con exito`
     );
-    res.json(reservacionBorrada);
+    roomController
+      .updateAvailability(idRoom, disp)
+      .then((estadoActualizado) => {
+        log.info(`El estado de la habitacion con [${idRoom}] fue actualizado`);
+        res.json(reservacionBorrada);
+      });
   })
 );
 

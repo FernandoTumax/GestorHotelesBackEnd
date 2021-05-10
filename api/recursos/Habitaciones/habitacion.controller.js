@@ -14,13 +14,13 @@ function deleteRoom(id) {
   return Habitacion.findByIdAndRemove(id);
 }
 
-function updateAvailability(id) {
+function updateAvailability(id, data) {
   return Habitacion.findOneAndUpdate(
     {
        _id: id 
     },
     { 
-      disponibilidad: "Ocupado"
+      disponibilidad: data
     },
     { new: true }
   );

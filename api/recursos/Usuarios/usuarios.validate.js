@@ -10,6 +10,9 @@ const blueprintUser = Joi.object({
   rol: Joi.string()
     .valid("ROL_ADMINAPP", "ROL_CLIENT", "ROL_ADMINHOTEL")
     .required(),
+  _id: Joi.string().optional().allow(''),
+  bills: Joi.array(),
+  history: Joi.array()
 });
 
 let validarUsuario = (req, res, next) => {
@@ -35,6 +38,12 @@ let validarUsuario = (req, res, next) => {
 const blueprintLogin = Joi.object({
   username: Joi.string().required(),
   password: Joi.string().required(),
+  email: Joi.string().optional().allow(''),
+  name: Joi.string().optional(),
+  rol: Joi.string().optional(),
+  _id: Joi.string().optional(),
+  bills: Joi.array().optional(),
+  history: Joi.array().optional()
 });
 
 let validarLogin = (req, res, next) => {

@@ -52,6 +52,7 @@ userRouter.post(
   [validarUsuario, transformarBodyALowerCase],
   procesarErrores((req, res) => {
     let nuevoUsuario = req.body;
+    nuevoUsuario._id = null;
     return userController
       .existingUser(nuevoUsuario.username, nuevoUsuario.email)
       .then((usuarioEncontrado) => {
@@ -101,7 +102,8 @@ userRouter.post(
       log.info(
         `Usuario [${usuarioNoAutenticado.username}] completo la autenticacion con exito`
       );
-      res.status(200).json({ token });
+      res.status(200).json({ token: token, user: usuarioRegistrado });
+      res.send(usuarioRegistrado);
     } else {
       log.info(
         `Usuario ${usuarioNoAutenticado.username} no completo autenticacion. Contraseña incorrecta`
