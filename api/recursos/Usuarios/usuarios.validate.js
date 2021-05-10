@@ -39,11 +39,12 @@ const blueprintLogin = Joi.object({
   username: Joi.string().required(),
   password: Joi.string().required(),
   email: Joi.string().optional().allow(''),
-  name: Joi.string().optional(),
-  rol: Joi.string().optional(),
-  _id: Joi.string().optional(),
-  bills: Joi.array().optional(),
-  history: Joi.array().optional()
+  name: Joi.string().optional().allow(''),
+  lastname: Joi.string().optional().allow(''),
+  rol: Joi.string().optional().allow(''),
+  _id: Joi.string().optional().allow(''),
+  bills: Joi.array().optional().allow(''),
+  history: Joi.array().optional().allow('')
 });
 
 let validarLogin = (req, res, next) => {
