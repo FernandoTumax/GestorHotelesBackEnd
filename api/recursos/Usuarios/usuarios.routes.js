@@ -47,6 +47,20 @@ userRouter.get(
   })
 );
 
+userRouter.get('/adminHotel', [jwtAuthenticate], procesarErrores((req, res) => {
+  let rolHotel = req.user.rol;
+
+  if(rolHotel != "ROL_ADMINHOTEL"){
+    log.info('Rol de usuario invalido')
+    throw new RolDeUsuarioInvalido();
+  }
+
+  return userController.foundUserAdminHotel().then((adminHotel) => {
+    res.json(adminHotel)
+  })
+
+}))
+
 userRouter.post(
   "/create",
   [validarUsuario, transformarBodyALowerCase],

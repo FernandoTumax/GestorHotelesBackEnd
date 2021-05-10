@@ -70,13 +70,8 @@ function foundOneUser({ username: username, id: id }) {
   );
 }
 
-function foundUserAdminHotel({rol: rol}){
-  if(rol){
-    return Usuario.find({rol: rol})
-  }
-  throw new Error(
-    "Funcion obtener usuarios del controlador fue llamado sin especificar el rol"
-  )
+function foundUserAdminHotel(){
+    return Usuario.find({rol: "ROL_ADMINHOTEL"})
 }
 
 module.exports = {
@@ -87,5 +82,6 @@ module.exports = {
   updateUser,
   existingUser,
   setHistory,
-  setBills
+  setBills,
+  foundUserAdminHotel
 };
