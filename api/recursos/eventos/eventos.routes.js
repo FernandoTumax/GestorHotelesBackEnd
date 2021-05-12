@@ -47,7 +47,7 @@ eventoRouter.post(
       throw new HotelNoExiste();
     }
 
-    if(rolUser != 'ROL_ADMINHOTEL'){
+    if(rolUser != 'ROL_ADMINAPP'){
       log.info('El usuario no tiene el rol adecuado')
       throw new RolInvalido(`El usuario no tiene el rol adecuado tiene: ${rolUser}`);
     }

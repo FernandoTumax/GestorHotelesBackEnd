@@ -54,7 +54,7 @@ roomRouter.post(
       throw new HotelNoExiste();
     }
 
-    if (rolUser != "ROL_ADMINHOTEL") {
+    if (rolUser != "ROL_ADMINAPP") {
       log.info("El usuario no cumple con el rol");
       throw new RolInvalido();
     }
