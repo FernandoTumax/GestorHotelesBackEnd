@@ -47,16 +47,19 @@ userRouter.get(
   })
 );
 
-userRouter.get('/adminHotel', [jwtAuthenticate], procesarErrores((req, res) => {
+userRouter.get('/adminHotel', jwtAuthenticate, procesarErrores((req, res) => {
   let rolHotel = req.user.rol;
+  let admins = [];
 
-  if(rolHotel != "ROL_ADMINHOTEL"){
+  if(rolHotel != "ROL_ADMINAPP"){
     log.info('Rol de usuario invalido')
     throw new RolDeUsuarioInvalido();
   }
 
   return userController.foundUserAdminHotel().then((adminHotel) => {
-    res.json(adminHotel)
+    admins.push(adminHotel)
+    res.send(admins)
+    log.info("este es el array con los datos" + admins);
   })
 
 }))

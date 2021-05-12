@@ -9612,3 +9612,6329 @@ info: 2021-05-10T04:55:12.445Z Fallo la validacion del usuario {"0":"\"_id\" is 
 info: 2021-05-10T04:55:12.446Z ::1 - POST /usuarios/create HTTP/1.1 400 338 - 6002.302 ms
 info: 2021-05-10T04:55:13.374Z Escuchando en el puerto 3000
 info: 2021-05-10T04:55:17.811Z ::1 - POST /usuarios/create HTTP/1.1 201 256 - 654.075 ms
+info: 2021-05-11T22:41:31.395Z Escuchando en el puerto 3000
+info: 2021-05-11T23:13:45.994Z Escuchando en el puerto 3000
+info: 2021-05-11T23:13:49.637Z ::1 - POST /usuarios/create HTTP/1.1 201 252 - 363.801 ms
+info: 2021-05-11T23:15:27.590Z ::1 - POST /usuarios/create HTTP/1.1 201 244 - 63.088 ms
+info: 2021-05-11T23:15:39.383Z Usuario [ejemplo98765] completo la autenticacion con exito
+info: 2021-05-11T23:15:39.386Z ::1 - POST /usuarios/login HTTP/1.1 500 457 - 97.269 ms
+info: 2021-05-11T23:16:55.293Z ::1 - GET /usuarios/adminHotel HTTP/1.1 401 - - 0.666 ms
+info: 2021-05-11T23:18:30.260Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:18:30.263Z Rol de usuario invalido
+info: 2021-05-11T23:18:30.266Z ::1 - GET /usuarios/adminHotel HTTP/1.1 401 1971 - 9.031 ms
+info: 2021-05-11T23:18:36.689Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:18:36.691Z Rol de usuario invalido
+info: 2021-05-11T23:18:36.692Z ::1 - GET /usuarios/adminHotel HTTP/1.1 401 1971 - 5.407 ms
+info: 2021-05-11T23:19:29.465Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:19:29.471Z ::1 - GET /usuarios/adminHotel HTTP/1.1 200 1036 - 7.198 ms
+info: 2021-05-11T23:20:07.101Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:20:07.106Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.139 ms
+info: 2021-05-11T23:20:10.095Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:20:10.099Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.159 ms
+info: 2021-05-11T23:20:33.843Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:20:33.847Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.641 ms
+info: 2021-05-11T23:20:52.744Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:20:52.749Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.960 ms
+info: 2021-05-11T23:21:01.994Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:21:01.998Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.461 ms
+info: 2021-05-11T23:21:06.448Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:21:06.452Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.235 ms
+info: 2021-05-11T23:21:22.555Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:21:22.562Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.553 ms
+info: 2021-05-11T23:21:47.883Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:21:47.891Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 9.506 ms
+error: 2021-05-11T23:22:04.299Z uncaughtException: Unexpected token '.'
+C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Usuarios\usuarios.routes.js:59
+    res..send(adminHotel)
+        ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\index.js:12:20)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47 {"error":{},"stack":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Usuarios\\usuarios.routes.js:59\n    res..send(adminHotel)\n        ^\n\nSyntaxError: Unexpected token '.'\n    at wrapSafe (internal/modules/cjs/loader.js:979:16)\n    at Module._compile (internal/modules/cjs/loader.js:1027:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js:12:20)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Tue May 11 2021 17:22:04 GMT-0600 (hora estándar central)","process":{"pid":3640,"uid":null,"gid":null,"cwd":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.4","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js"],"memoryUsage":{"rss":60633088,"heapTotal":33984512,"heapUsed":24500576,"external":20370325,"arrayBuffers":18808602}},"os":{"loadavg":[0,0,0],"uptime":1160453},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":979,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1027,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":20,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js","function":null,"line":12,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":72,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: 2021-05-11T23:22:06.584Z Escuchando en el puerto 3000
+info: 2021-05-11T23:22:12.152Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:22:12.161Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 25.315 ms
+info: 2021-05-11T23:22:52.673Z Escuchando en el puerto 3000
+info: 2021-05-11T23:22:55.607Z Escuchando en el puerto 3000
+info: 2021-05-11T23:22:56.650Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:22:56.663Z {
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:22:56.665Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 30.265 ms
+info: 2021-05-11T23:23:00.983Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:23:00.991Z {
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:23:00.992Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.684 ms
+info: 2021-05-11T23:23:42.087Z Escuchando en el puerto 3000
+info: 2021-05-11T23:23:46.179Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:23:46.190Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:23:46.191Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 25.885 ms
+info: 2021-05-11T23:25:46.217Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:25:46.224Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:25:46.225Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.152 ms
+info: 2021-05-11T23:26:17.061Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:26:17.076Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:26:17.077Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 12.804 ms
+info: 2021-05-11T23:26:21.364Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:26:21.373Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:26:21.374Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.287 ms
+info: 2021-05-11T23:26:55.658Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:26:55.666Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:26:55.667Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.177 ms
+info: 2021-05-11T23:27:18.705Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:27:18.713Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:27:18.714Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.541 ms
+info: 2021-05-11T23:30:22.553Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:30:22.563Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:30:22.564Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 11.593 ms
+info: 2021-05-11T23:30:27.935Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:30:27.942Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:30:27.943Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.916 ms
+info: 2021-05-11T23:32:03.462Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:32:03.469Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:32:03.470Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.598 ms
+info: 2021-05-11T23:32:06.043Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:32:06.052Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:32:06.053Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 9.718 ms
+info: 2021-05-11T23:32:23.120Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:32:23.127Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:32:23.128Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.637 ms
+info: 2021-05-11T23:32:35.783Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:32:35.790Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:32:35.791Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.172 ms
+info: 2021-05-11T23:33:14.600Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:33:14.608Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:33:14.609Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 9.339 ms
+info: 2021-05-11T23:33:20.223Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:33:20.230Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:33:20.231Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.327 ms
+info: 2021-05-11T23:33:47.921Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:33:47.928Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:33:47.929Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.160 ms
+info: 2021-05-11T23:34:19.810Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:34:19.817Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:34:19.818Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.862 ms
+info: 2021-05-11T23:34:26.959Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:34:26.966Z eston son los administradores{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:34:26.967Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.048 ms
+info: 2021-05-11T23:34:51.006Z Escuchando en el puerto 3000
+info: 2021-05-11T23:35:49.752Z Escuchando en el puerto 3000
+info: 2021-05-11T23:35:51.843Z Escuchando en el puerto 3000
+error: 2021-05-11T23:35:54.397Z uncaughtException: Unexpected token ')'
+C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\api\recursos\Usuarios\usuarios.routes.js:61
+    adminHotel.forEach(elemento => )
+                                   ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (C:\Users\ferna\Documents\Projectos KINAL\GestorHoteles\index.js:12:20)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+    at internal/main/run_main_module.js:17:47 {"error":{},"stack":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\api\\recursos\\Usuarios\\usuarios.routes.js:61\n    adminHotel.forEach(elemento => )\n                                   ^\n\nSyntaxError: Unexpected token ')'\n    at wrapSafe (internal/modules/cjs/loader.js:979:16)\n    at Module._compile (internal/modules/cjs/loader.js:1027:27)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Module.require (internal/modules/cjs/loader.js:952:19)\n    at require (internal/modules/cjs/helpers.js:88:18)\n    at Object.<anonymous> (C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js:12:20)\n    at Module._compile (internal/modules/cjs/loader.js:1063:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)\n    at Module.load (internal/modules/cjs/loader.js:928:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:769:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)\n    at internal/main/run_main_module.js:17:47","exception":true,"date":"Tue May 11 2021 17:35:54 GMT-0600 (hora estándar central)","process":{"pid":25888,"uid":null,"gid":null,"cwd":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles","execPath":"C:\\Program Files\\nodejs\\node.exe","version":"v14.15.4","argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js"],"memoryUsage":{"rss":61714432,"heapTotal":35295232,"heapUsed":18886592,"external":19848337,"arrayBuffers":18286614}},"os":{"loadavg":[0,0,0],"uptime":1161283},"trace":[{"column":16,"file":"internal/modules/cjs/loader.js","function":"wrapSafe","line":979,"method":null,"native":false},{"column":27,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1027,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":19,"file":"internal/modules/cjs/loader.js","function":"Module.require","line":952,"method":"require","native":false},{"column":18,"file":"internal/modules/cjs/helpers.js","function":"require","line":88,"method":null,"native":false},{"column":20,"file":"C:\\Users\\ferna\\Documents\\Projectos KINAL\\GestorHoteles\\index.js","function":null,"line":12,"method":null,"native":false},{"column":30,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1063,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1092,"method":".js","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":928,"method":"load","native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._load","line":769,"method":"_load","native":false},{"column":12,"file":"internal/modules/run_main.js","function":"Function.executeUserEntryPoint [as runMain]","line":72,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"internal/main/run_main_module.js","function":null,"line":17,"method":null,"native":false}]}
+info: 2021-05-11T23:35:56.126Z Escuchando en el puerto 3000
+info: 2021-05-11T23:36:06.557Z Escuchando en el puerto 3000
+info: 2021-05-11T23:36:09.503Z Escuchando en el puerto 3000
+info: 2021-05-11T23:36:21.046Z Escuchando en el puerto 3000
+info: 2021-05-11T23:36:29.800Z Escuchando en el puerto 3000
+info: 2021-05-11T23:36:32.286Z Escuchando en el puerto 3000
+info: 2021-05-11T23:36:42.003Z Escuchando en el puerto 3000
+info: 2021-05-11T23:36:42.976Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:36:42.992Z {
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:36:42.994Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 31.583 ms
+info: 2021-05-11T23:37:44.209Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:37:44.219Z {
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:37:44.220Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 12549.194 ms
+info: 2021-05-11T23:37:45.210Z Escuchando en el puerto 3000
+info: 2021-05-11T23:37:52.102Z Escuchando en el puerto 3000
+info: 2021-05-11T23:37:54.635Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:37:54.650Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:37:54.651Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 26.252 ms
+info: 2021-05-11T23:38:50.418Z Escuchando en el puerto 3000
+info: 2021-05-11T23:39:05.475Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:39:05.490Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:39:05.491Z ::1 - GET /usuarios/adminHotel HTTP/1.1 200 3112 - 25.633 ms
+info: 2021-05-11T23:39:10.263Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:39:10.271Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:39:10.272Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.955 ms
+info: 2021-05-11T23:39:12.724Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:39:12.731Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:39:12.732Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.135 ms
+info: 2021-05-11T23:39:31.159Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:39:31.167Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:39:31.168Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.073 ms
+info: 2021-05-11T23:39:55.189Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:39:55.199Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:39:55.200Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.009 ms
+info: 2021-05-11T23:40:07.686Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:40:07.697Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:40:07.698Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.331 ms
+info: 2021-05-11T23:40:20.681Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:40:20.691Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:40:20.691Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.254 ms
+info: 2021-05-11T23:40:26.281Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:40:26.292Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:40:26.292Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.799 ms
+info: 2021-05-11T23:40:32.824Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:40:32.835Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:40:32.837Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.788 ms
+info: 2021-05-11T23:40:34.509Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:40:34.521Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:40:34.522Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.197 ms
+info: 2021-05-11T23:40:42.338Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:40:42.347Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:40:42.347Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.582 ms
+info: 2021-05-11T23:40:51.506Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:40:51.513Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:40:51.514Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.704 ms
+info: 2021-05-11T23:40:52.701Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:40:52.709Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:40:52.709Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.192 ms
+info: 2021-05-11T23:40:55.951Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:40:55.958Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:40:55.959Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.979 ms
+info: 2021-05-11T23:41:52.284Z Escuchando en el puerto 3000
+info: 2021-05-11T23:41:55.344Z Escuchando en el puerto 3000
+info: 2021-05-11T23:43:07.140Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:43:07.157Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:43:07.161Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7036.843 ms
+info: 2021-05-11T23:43:07.170Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:43:07.182Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:43:07.183Z ::1 - GET /usuarios/adminHotel HTTP/1.1 200 3112 - 13.454 ms
+info: 2021-05-11T23:43:08.093Z Escuchando en el puerto 3000
+info: 2021-05-11T23:43:15.193Z Escuchando en el puerto 3000
+info: 2021-05-11T23:43:19.212Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:43:19.223Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:43:19.224Z ::1 - GET /usuarios/adminHotel HTTP/1.1 200 1038 - 27.047 ms
+info: 2021-05-11T23:44:19.477Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:44:19.484Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:44:19.485Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6083.904 ms
+info: 2021-05-11T23:44:19.488Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:44:19.496Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:44:19.497Z ::1 - GET /usuarios/adminHotel HTTP/1.1 200 1038 - 5.718 ms
+info: 2021-05-11T23:44:53.293Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:44:53.300Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:44:53.301Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.236 ms
+info: 2021-05-11T23:44:56.479Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:44:56.487Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:44:56.488Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.708 ms
+info: 2021-05-11T23:45:13.588Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:45:13.596Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:45:13.597Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 9.410 ms
+info: 2021-05-11T23:45:15.969Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:45:15.977Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:45:15.978Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.489 ms
+info: 2021-05-11T23:45:17.524Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:45:17.531Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:45:17.531Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.622 ms
+info: 2021-05-11T23:45:25.000Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:45:25.015Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:45:25.017Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 15.037 ms
+info: 2021-05-11T23:45:50.871Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:45:50.878Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:45:50.878Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.457 ms
+info: 2021-05-11T23:45:53.980Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:45:53.987Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:45:53.987Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.142 ms
+info: 2021-05-11T23:46:05.537Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:46:05.545Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:46:05.546Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.720 ms
+info: 2021-05-11T23:46:16.385Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:46:16.392Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:46:16.393Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.047 ms
+info: 2021-05-11T23:46:20.980Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:46:20.986Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:46:20.987Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.521 ms
+info: 2021-05-11T23:46:47.461Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:46:47.467Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:46:47.468Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.012 ms
+info: 2021-05-11T23:46:57.358Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:46:57.373Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:46:57.374Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 12.295 ms
+info: 2021-05-11T23:47:59.236Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:47:59.245Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:47:59.245Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.789 ms
+info: 2021-05-11T23:48:08.547Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:48:08.554Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:48:08.555Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.952 ms
+info: 2021-05-11T23:48:10.691Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:48:10.697Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:48:10.698Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.174 ms
+info: 2021-05-11T23:48:16.087Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:48:16.095Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:48:16.096Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.840 ms
+info: 2021-05-11T23:48:26.669Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:48:26.675Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:48:26.676Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.871 ms
+info: 2021-05-11T23:48:34.926Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:48:34.931Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:48:34.932Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.789 ms
+info: 2021-05-11T23:48:37.145Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:48:37.151Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:48:37.152Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.831 ms
+info: 2021-05-11T23:48:46.579Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:48:46.588Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:48:46.589Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.244 ms
+info: 2021-05-11T23:52:39.126Z Escuchando en el puerto 3000
+info: 2021-05-11T23:54:02.375Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:54:02.386Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:54:02.387Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 27.300 ms
+info: 2021-05-11T23:55:03.882Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:55:03.889Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:55:03.889Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.931 ms
+info: 2021-05-11T23:55:05.541Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:55:05.548Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:55:05.548Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.696 ms
+info: 2021-05-11T23:55:38.277Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:55:38.286Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:55:38.287Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 9.724 ms
+info: 2021-05-11T23:56:02.933Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:56:02.942Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:56:02.943Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 9.096 ms
+info: 2021-05-11T23:56:05.396Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:56:05.403Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:56:05.404Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.463 ms
+info: 2021-05-11T23:56:13.077Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:56:13.086Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:56:13.087Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.259 ms
+info: 2021-05-11T23:56:19.250Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:56:19.258Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:56:19.260Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 9.249 ms
+info: 2021-05-11T23:56:22.030Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:56:22.041Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:56:22.042Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 10.762 ms
+info: 2021-05-11T23:56:32.923Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:56:32.931Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:56:32.932Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.215 ms
+info: 2021-05-11T23:57:04.505Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:57:04.511Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:57:04.512Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.320 ms
+info: 2021-05-11T23:59:08.657Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:59:08.667Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:59:08.668Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 10.295 ms
+info: 2021-05-11T23:59:33.362Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-11T23:59:33.368Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-11T23:59:33.369Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.005 ms
+info: 2021-05-12T00:00:54.260Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:00:54.267Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:00:54.269Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.321 ms
+info: 2021-05-12T00:01:01.485Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:01:01.493Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:01:01.493Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.857 ms
+info: 2021-05-12T00:01:50.624Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:01:50.631Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:01:50.632Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.511 ms
+info: 2021-05-12T00:02:22.499Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:02:22.506Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:02:22.507Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.756 ms
+info: 2021-05-12T00:02:51.635Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:02:51.643Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:02:51.643Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.128 ms
+info: 2021-05-12T00:03:10.259Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:03:10.265Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:03:10.266Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.825 ms
+info: 2021-05-12T00:03:45.602Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:03:45.609Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:03:45.610Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.406 ms
+info: 2021-05-12T00:05:03.139Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:05:03.144Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:05:03.145Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.151 ms
+info: 2021-05-12T00:05:03.960Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:05:03.969Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:05:03.976Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.195 ms
+info: 2021-05-12T00:05:20.864Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:05:20.870Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:05:20.871Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.567 ms
+info: 2021-05-12T00:05:33.912Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:05:33.921Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:05:33.922Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 9.693 ms
+info: 2021-05-12T00:05:46.249Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:05:46.256Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:05:46.257Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.522 ms
+info: 2021-05-12T00:06:05.138Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:06:05.150Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:06:05.151Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.935 ms
+info: 2021-05-12T00:06:25.365Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:06:25.372Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:06:25.372Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.827 ms
+info: 2021-05-12T00:06:36.924Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:06:36.930Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:06:36.931Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 6.167 ms
+info: 2021-05-12T00:06:43.407Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:06:43.412Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:06:43.413Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.458 ms
+info: 2021-05-12T00:07:07.300Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:07:07.307Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:07:07.308Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.467 ms
+info: 2021-05-12T00:10:01.368Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:10:01.376Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:10:01.377Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.531 ms
+info: 2021-05-12T00:10:02.450Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:10:02.456Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:10:02.457Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 5.837 ms
+info: 2021-05-12T00:10:13.208Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:10:13.217Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:10:13.218Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.706 ms
+info: 2021-05-12T00:10:23.914Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:10:23.923Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:10:23.924Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 8.967 ms
+info: 2021-05-12T00:10:33.257Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-12T00:10:33.264Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-12T00:10:33.264Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 7.095 ms
