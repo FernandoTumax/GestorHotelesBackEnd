@@ -4,7 +4,6 @@ const log = require('./../../../utils/logger')
 const blueprintHotel = Joi.object({
     name: Joi.string().max(150).required(),
     direccion: Joi.string().max(200).required(),
-    _id: Joi.allow('').optional(),
     solicitud: Joi.allow('').optional(),
     reservation: Joi.allow('').optional(),
     room: Joi.allow('').optional(),

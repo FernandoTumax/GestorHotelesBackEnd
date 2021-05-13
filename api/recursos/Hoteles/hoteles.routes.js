@@ -37,7 +37,6 @@ hotelRouter.post(
     let idAdmin = req.params.id;
     let userAdmin;
     let rolUsuario = req.user.rol;
-    nuevoHotel._id = null;
 
     if (rolUsuario != "ROL_ADMINAPP") {
       log.info("El usuario no tiene el rol para esta accion");
