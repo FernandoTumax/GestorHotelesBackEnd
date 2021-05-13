@@ -18010,3 +18010,10 @@ info: 2021-05-13T01:05:25.807Z este es el array con los datos{
 }
 info: 2021-05-13T01:05:25.808Z ::1 - GET /usuarios/adminHotel HTTP/1.1 304 - - 28.729 ms
 info: 2021-05-13T01:05:34.367Z Escuchando en el puerto 3000
+info: 2021-05-13T01:05:41.278Z Escuchando en el puerto 3000
+info: 2021-05-13T01:05:46.595Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-13T01:05:46.611Z Hotel creado con exito
+info: 2021-05-13T01:05:46.612Z ::1 - POST /hoteles/create/60908676815ac95480a9297f HTTP/1.1 200 185 - 30.094 ms
+info: 2021-05-13T01:05:49.935Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-13T01:05:49.943Z Hotel creado con exito
+info: 2021-05-13T01:05:49.944Z ::1 - POST /hoteles/create/60908676815ac95480a9297f HTTP/1.1 200 185 - 11.350 ms
