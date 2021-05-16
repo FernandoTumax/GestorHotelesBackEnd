@@ -58,7 +58,7 @@ function existingUser(username, email) {
   });
 }
 
-function foundOneUser({ username: username, id: id }) {
+function foundOneUser({ username: username, id: id }){
   if (username) {
     return Usuario.findOne({ username: username });
   }

@@ -18017,3 +18017,6 @@ info: 2021-05-13T01:05:46.612Z ::1 - POST /hoteles/create/60908676815ac95480a929
 info: 2021-05-13T01:05:49.935Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
 info: 2021-05-13T01:05:49.943Z Hotel creado con exito
 info: 2021-05-13T01:05:49.944Z ::1 - POST /hoteles/create/60908676815ac95480a9297f HTTP/1.1 200 185 - 11.350 ms
+info: 2021-05-13T02:00:20.564Z Escuchando en el puerto 3000
+info: 2021-05-13T13:42:08.405Z Escuchando en el puerto 3000
+info: 2021-05-13T13:43:03.387Z ::1 - GET /hoteles/ HTTP/1.1 200 4725 - 164.478 ms

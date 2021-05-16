@@ -72,6 +72,10 @@ const blueprintUpdate = Joi.object({
   name: Joi.string().max(100).required(),
   lastname: Joi.string().max(100).required(),
   email: Joi.string().email().required(),
+  bills: Joi.optional(),
+  history: Joi.optional(),
+  rol: Joi.optional(),
+  __v: Joi.optional()
 });
 
 let validarUpdate = (req, res, next) => {

@@ -101,7 +101,7 @@ userRouter.post(
 
     let usuarioRegistrado = await userController.foundOneUser({
       username: usuarioNoAutenticado.username,
-    });
+    }).populate('history');
     if (!usuarioRegistrado) {
       log.info(
         `Usuario [${usuarioNoAutenticado.username}] no existe. No puede ser autenticado`

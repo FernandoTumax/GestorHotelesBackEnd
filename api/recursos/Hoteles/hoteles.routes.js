@@ -23,7 +23,7 @@ function validarId(req, res, next) {
 hotelRouter.get(
   "/",
   procesarErrores((req, res) => {
-    return hotelController.foundHotel().then((hoteles) => {
+    return hotelController.foundHotel().populate('user').populate('reservation').then((hoteles) => {
       res.json(hoteles);
     });
   })
