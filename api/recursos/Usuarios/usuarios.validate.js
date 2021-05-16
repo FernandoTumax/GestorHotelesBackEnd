@@ -75,7 +75,8 @@ const blueprintUpdate = Joi.object({
   bills: Joi.optional(),
   history: Joi.optional(),
   rol: Joi.optional(),
-  __v: Joi.optional()
+  __v: Joi.optional(),
+  _id: Joi.optional()
 });
 
 let validarUpdate = (req, res, next) => {
