@@ -6,6 +6,8 @@ const blueprintRoom = Joi.object({
     .max(100)
     .valid("disponible", "ocupado")
     .required(),
+    descripcion: Joi.string().max(200).required(),
+  services: Joi.array().optional(),
 });
 
 let validarRoom = (req, res, next) => {
@@ -30,5 +32,5 @@ let validarRoom = (req, res, next) => {
 };
 
 module.exports = {
-    validarRoom
-}
+  validarRoom,
+};

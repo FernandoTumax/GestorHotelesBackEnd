@@ -18020,3 +18020,64 @@ info: 2021-05-13T01:05:49.944Z ::1 - POST /hoteles/create/60908676815ac95480a929
 info: 2021-05-13T02:00:20.564Z Escuchando en el puerto 3000
 info: 2021-05-13T13:42:08.405Z Escuchando en el puerto 3000
 info: 2021-05-13T13:43:03.387Z ::1 - GET /hoteles/ HTTP/1.1 200 4725 - 164.478 ms
+info: 2021-05-18T02:08:35.281Z Escuchando en el puerto 3000
+info: 2021-05-18T02:16:09.119Z Usuario [ejemplo98765] completo la autenticacion con exito
+info: 2021-05-18T02:16:09.124Z ::1 - POST /usuarios/login HTTP/1.1 500 459 - 160.053 ms
+info: 2021-05-18T02:16:11.340Z ::1 - GET /hoteles/ HTTP/1.1 200 4725 - 680.063 ms
+info: 2021-05-18T02:16:14.042Z ::1 - GET /usuarios/adminHotel HTTP/1.1 401 - - 2.902 ms
+info: 2021-05-18T02:18:32.322Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-18T02:18:32.333Z este es el array con los datos{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629132,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$cG/0AUddoffB3HTsGU0RNu.AKd1TGXfCj2DG97Gib/Peubrur5a3i',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [],
+  history: [],
+  _id: 608f823ae325606680629133,
+  hotel: [],
+  username: 'ejemplo777',
+  email: 'ejemplo777@gmail.com',
+  name: 'simon',
+  lastname: 'velasquez',
+  password: '$2b$10$/X5asNQ/mATn3aVJAzZP8u3SjwxJP10aPR7kyrI3ceE/JvyGHBJ8m',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+},{
+  bills: [ 60908e9f60866b1bc8fe136d ],
+  history: [
+    60908cf5bbf0db2168ec74c0,
+    60908db697a7a41b6c480b78,
+    60908e0c60866b1bc8fe136c,
+    6090b9275e69505398380350,
+    6090b9ccbac9503f1409315c,
+    6090b9eabac9503f1409315d,
+    6090babab46d562d90e18687,
+    6090bb986976773c944094fd
+  ],
+  _id: 60908676815ac95480a9297f,
+  username: 'ejemplo8888',
+  password: '$2b$10$ldD/zcXSoSikQrP6gwiMRumbq0B/cWCI9l/ILvny2odUvzWKEglqm',
+  name: 'fernando',
+  lastname: 'tumax',
+  email: 'ejemplo8888@gmail.com',
+  rol: 'ROL_ADMINHOTEL',
+  __v: 0
+}
+info: 2021-05-18T02:18:32.334Z ::1 - GET /usuarios/adminHotel HTTP/1.1 200 1038 - 12.942 ms
+info: 2021-05-18T02:18:41.464Z Usuario ejemplo98765 suministro un token valido. Autenticacion completada.
+info: 2021-05-18T02:18:41.477Z Hotel creado con exito
+info: 2021-05-18T02:18:41.477Z ::1 - POST /hoteles/create/60908676815ac95480a9297f HTTP/1.1 200 182 - 13.780 ms
+info: 2021-05-18T02:20:18.506Z Fallo la validacion de la habitacion {"0":"\"disponibilidad\" must be one of [disponible, ocupado]","1":"\"disponibilidad\" is not allowed to be empty","2":"\"descripcion\" is not allowed","3":"\"services\" is not allowed"}
+info: 2021-05-18T02:20:18.509Z ::1 - POST /habitaciones/60a3240155f07f2e7caec055/create HTTP/1.1 400 86 - 5.007 ms
+info: 2021-05-18T02:23:41.369Z Fallo la validacion de la habitacion {"0":"\"disponibilidad\" must be one of [disponible, ocupado]","1":"\"disponibilidad\" is not allowed to be empty","2":"\"descripcion\" is not allowed","3":"\"services\" is not allowed"}
+info: 2021-05-18T02:23:41.371Z ::1 - POST /habitaciones/60a3240155f07f2e7caec055/create HTTP/1.1 400 86 - 1.245 ms
+info: 2021-05-18T02:24:01.033Z Fallo la validacion de la habitacion {"0":"\"disponibilidad\" must be one of [disponible, ocupado]","1":"\"disponibilidad\" is not allowed to be empty","2":"\"descripcion\" is not allowed","3":"\"services\" is not allowed"}
+info: 2021-05-18T02:24:01.035Z ::1 - POST /habitaciones/60a3240155f07f2e7caec055/create HTTP/1.1 400 86 - 0.993 ms

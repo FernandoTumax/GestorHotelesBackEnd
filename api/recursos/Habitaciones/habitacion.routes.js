@@ -63,7 +63,7 @@ roomRouter.post(
       if (roomCreated) {
         res.json(roomCreated);
         log.info("Habitacion creada con exito");
-        hotelController
+        return hotelController
           .setRoom(idHotel, roomCreated.id)
           .then((habitacionSeteada) => {
             log.info(
@@ -71,7 +71,7 @@ roomRouter.post(
             );
           });
       }
-      log.error("La reservacion no se pudo hacer");
+      log.error("La Habitacion no se pudo crear");
     });
   })
 );
