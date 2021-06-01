@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const servicesSchema = new mongoose.Schema({
-  tipoServicio: {
+  nombreServicio: {
     type: String,
     required: [true, "el servicio necesita un tipo"],
   },

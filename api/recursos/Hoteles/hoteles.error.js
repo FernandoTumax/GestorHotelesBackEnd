@@ -16,7 +16,17 @@ class RolInvalido extends Error{
     }
 }
 
+class HotelExistente extends Error{
+    constructor(message){
+        super(message)
+        this.name = message || 'El hotel que se quiere crear ya existe en la base de datos'
+        this.status = 400
+        this.name = 'HotelExistente'
+    }
+}
+
 module.exports = {
     HotelNoExiste,
-    RolInvalido
+    RolInvalido,
+    HotelExistente
 }

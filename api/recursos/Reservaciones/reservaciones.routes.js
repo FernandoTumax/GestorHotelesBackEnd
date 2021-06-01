@@ -2,19 +2,22 @@ const express = require("express");
 const passport = require("passport");
 
 const log = require("./../../../utils/logger");
-const validarReservacion = require("./reservaciones.validate")
-  .validarReservacion;
+const validarReservacion =
+  require("./reservaciones.validate").validarReservacion;
 const reservationController = require("./reservaciones.controller");
 const userController = require("./../Usuarios/usuarios.controller");
 const hotelController = require("./../Hoteles/hoteles.controller");
+const servicesController = require('./../Servicios/servicios.controller');
 const roomController = require("./../Habitaciones/habitacion.controller");
+const producerMQ = require('./reservaciones.queue')
 const procesarErrores = require("./../../libs/errorHandler").procesarErrores;
 const {
-  FechaIncorrecta,
+  ServicioNoExiste,
   ReservacionNoExiste,
   HotelNoExiste,
   HabitacionNoExiste,
 } = require("./reservaciones.error");
+
 
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 const reservationRouter = express.Router();
@@ -38,9 +41,6 @@ function validarIds(req, res, next) {
   next();
 }
 
-
-
-
 reservationRouter.get(
   "/",
   procesarErrores((req, res) => {
@@ -50,52 +50,42 @@ reservationRouter.get(
   })
 );
 
+reservationRouter.get('/oneReservation/:id', jwtAuthenticate, procesarErrores((req, res) => {
+  let idReservacion = req.params.id;
+    return reservationController.foundOneReservacion({id: idReservacion}).then((reservacion) => {
+      res.json(reservacion);
+    })
+}))
+
 reservationRouter.post(
-  "/:idH/:idR/set",
+  "/:idH/:idR/:idC/set",
   [validarReservacion, jwtAuthenticate],
   procesarErrores(async (req, res) => {
     let nuevaReservacion = req.body;
     let fechaIngreso = req.body.fechaIngreso;
     let fechaSalida = req.body.fechaSalida;
-    let idUser = req.user.id;
+    let idUser = req.params.idC;
     let idHotel = req.params.idH;
     let idRoom = req.params.idR;
-    let hotel;
-    let room;
     let disp = "ocupado";
 
-    hotel = await hotelController.foundOneHotel({ id: idHotel });
-
-    room = await roomController.foundOneRoom({ id: idRoom });
-
-    if (!hotel) {
-      log.info("El hotel no existe en la base de datos");
-      throw new HotelNoExiste(
-        `El hotel con id [${idHotel}] no existe en la base de datos`
-      );
-    }
-
-    if (!room) {
-      log.info("La habitacion no existe");
-      throw new HabitacionNoExiste();
-    }
-    roomController
-      .updateAvailability(idRoom, disp)
-      .then((estadoActualizado) => {
-        log.info(`El estado de la habitacion con [${idRoom}] fue actualizado`);
-      });
+    log.info(``)
 
     reservationController
       .setReservation(nuevaReservacion, fechaIngreso, fechaSalida)
       .then((nuevaReservacionCreada) => {
         if (nuevaReservacionCreada) {
-          res.json(nuevaReservacionCreada);
+          producerMQ.publicMessage(nuevaReservacionCreada, 'facturacionKey').then(resultado => {
+            log.info('Se encolo la reservacion para el envio de la factura')
+          }).catch(err => {
+            log.error('No se provoco un error al momento de encolar la factura', err)
+          })
           log.info("Reservacion creada con exito");
           userController
             .setHistory(idUser, nuevaReservacionCreada.id)
             .then((reservacionSeteada) => {
               log.info(
-                `el usuario con id [${idUser}] fue actualizado con su nueva reservacion y agregada a su historial`
+                `el usuario con id [${idUser}] fue actualizado con su nueva reservacion y agregada a su historial [${nuevaReservacionCreada.id}]`
               );
               hotelController
                 .setReservation(idHotel, nuevaReservacionCreada.id)
@@ -103,18 +93,18 @@ reservationRouter.post(
                   log.info(
                     `El hotel con id [${idHotel}] fue actualizado con una reservacion de un cliente`
                   );
-                  reservationController
-                    .setRoom(nuevaReservacionCreada.id, idRoom)
-                    .then((habitacionSeteada) => {
-                      log.info(
-                        `La reservacion ya tiene habitacion, su id es [${idRoom}]`
-                      );
-                    });
-                  hotelController
-                    .setSolicitud(idHotel)
-                    .then((solicitudActualizada) => {
-                      log.info(`Se ha incrementado las solicitudes del hotel`);
-                    });
+                      hotelController
+                        .setSolicitud(idHotel)
+                        .then((solicitudActualizada) => {
+                          log.info(
+                            `Se ha incrementado las solicitudes del hotel`
+                          );
+                          roomController.updateAvailability(idRoom, disp).then(setearDiso => {
+                            log.info(`El id ${idRoom} pasa a estar ocupada`)
+                            res.json(nuevaReservacionCreada);
+                            res.status(201)
+                          })
+                        });
                 });
             });
         }
@@ -123,13 +113,14 @@ reservationRouter.post(
 );
 
 reservationRouter.delete(
-  "/:idR/:idH",
+  "/:idRS/:idR/:idH",
   [jwtAuthenticate, validarIds],
   procesarErrores(async (req, res) => {
-    let idReservacion = req.params.idR;
+    let idReservacion = req.params.idRS;
     let reservacionEliminar;
-    let idRoom = req.params.idH;
-    let disp = "Disponible";
+    let idRoom = req.params.idR;
+    let idHotel = req.params.idH;
+    let disp = "disponible";
 
     reservacionEliminar = await reservationController.foundOneReservacion({
       id: idReservacion,
@@ -148,12 +139,13 @@ reservationRouter.delete(
     log.info(
       `La reservacion con [${idReservacion}] ha sido cancelada con exito`
     );
-    roomController
-      .updateAvailability(idRoom, disp)
-      .then((estadoActualizado) => {
-        log.info(`El estado de la habitacion con [${idRoom}] fue actualizado`);
-        res.json(reservacionBorrada);
-      });
+    roomController.updateAvailability(idRoom, disp).then(setearDisp => {
+      log.info(`La habitacion con [${idRoom}] pasa a estar disponible`)
+      res.json(reservacionBorrada);
+      hotelController.deleteSolicitud(idHotel).then(desincHotel => {
+        log.info(`La solicitud a bajado del hotel [${idHotel}]`)
+      })
+    }).catch(err => log.error(err))
   })
 );
 

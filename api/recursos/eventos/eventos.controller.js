@@ -7,7 +7,7 @@ function foundEvent() {
 function createEvent(event, fecha) {
   return new Evento({
     ...event,
-    fecha: Date.parse(fecha),
+    fecha:  fecha,
   }).save();
 }
 

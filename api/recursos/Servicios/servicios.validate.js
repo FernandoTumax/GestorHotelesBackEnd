@@ -2,7 +2,7 @@ const Joi = require("@hapi/joi");
 const log = require("../../../utils/logger");
 
 const blueprintService = Joi.object({
-  tipoServicio: Joi.string().valid("VIP", "Normal", "Suite").required(),
+  nombreServicio: Joi.string().max(200).required(),
   precio: Joi.number().positive().precision(2).required(),
   descripcion: Joi.string().max(200).required(),
 });

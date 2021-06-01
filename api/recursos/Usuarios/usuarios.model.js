@@ -32,6 +32,7 @@ const usuarioSchema = new mongoose.Schema({
         required: [true, 'Usuario debe tener un rol']
     },
     bills: [{type: mongoose.Schema.ObjectId, ref:'factura'}],
+    hotels: [{type: mongoose.Schema.ObjectId, ref:'hotel'}],
     history: [{type: mongoose.Schema.ObjectId, ref:'reservacion'}]
 })
 

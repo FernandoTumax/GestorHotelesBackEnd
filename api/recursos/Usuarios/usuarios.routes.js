@@ -39,13 +39,20 @@ function validarId(req, res, next) {
 }
 
 userRouter.get(
-  "/",
+  "/", jwtAuthenticate,
   procesarErrores((req, res) => {
     return userController.foundUser().then((usuarios) => {
       res.json(usuarios);
     });
   })
 );
+
+userRouter.get('/oneUser/:id',jwtAuthenticate, procesarErrores((req, res) => {
+  let idUsuario = req.params.id;
+  return userController.foundOneUser({id: idUsuario}).then((usuarioEncontrado) => {
+    res.json(usuarioEncontrado);
+  })
+}))
 
 userRouter.get('/adminHotel', jwtAuthenticate, procesarErrores((req, res) => {
   let rolHotel = req.user.rol;
@@ -101,7 +108,7 @@ userRouter.post(
 
     let usuarioRegistrado = await userController.foundOneUser({
       username: usuarioNoAutenticado.username,
-    }).populate('history');
+    });
     if (!usuarioRegistrado) {
       log.info(
         `Usuario [${usuarioNoAutenticado.username}] no existe. No puede ser autenticado`
@@ -120,7 +127,9 @@ userRouter.post(
         `Usuario [${usuarioNoAutenticado.username}] completo la autenticacion con exito`
       );
       res.status(200).json({ token: token, user: usuarioRegistrado });
-      res.send(usuarioRegistrado);
+      if(!res.headersSent){
+        res.send(usuarioRegistrado);
+      }
     } else {
       log.info(
         `Usuario ${usuarioNoAutenticado.username} no completo autenticacion. Contraseña incorrecta`
@@ -137,6 +146,8 @@ userRouter.put(
     let idUsuario = req.params.id;
     let id = req.user.id;
     let updateUser;
+
+    
 
     updateUser = await userController.foundOneUser({ id: idUsuario });
 

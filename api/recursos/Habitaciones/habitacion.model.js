@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 
 const habitacionSchema = new mongoose.Schema({
+  codigoHabitacion: {
+    type: String,
+    required: [true, "La habitacion necesita un codigo de habitacion"]
+  },
   disponibilidad: {
     type: String,
     required: [true, "La habitacion necesita una disponibilidad"],
@@ -9,7 +13,14 @@ const habitacionSchema = new mongoose.Schema({
     type: String,
     required: [true]
   },
-  services: [{ type: mongoose.Schema.ObjectId, ref: "servicio" }],
+  tipoHabitacion: {
+    type: String,
+    required: [true, "La habitacion necesita un tipo"]
+  },
+  precio: {
+    type: Number,
+    required: [true, "La habitacion necesita un precio"]
+  }
 });
 
 module.exports = mongoose.model("habitacion", habitacionSchema);

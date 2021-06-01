@@ -6,7 +6,7 @@ const validarHotel = require("./hoteles.validate").validarHotel;
 const hotelController = require("./hoteles.controller");
 const userController = require('./../Usuarios/usuarios.controller');
 const procesarErrores = require("./../../libs/errorHandler").procesarErrores;
-const { HotelNoExiste, RolInvalido } = require("./hoteles.error");
+const { HotelNoExiste, RolInvalido, HotelExistente } = require("./hoteles.error");
 
 const jwtAuthenticate = passport.authenticate("jwt", { session: false });
 const hotelRouter = express.Router();
@@ -21,13 +21,20 @@ function validarId(req, res, next) {
 }
 
 hotelRouter.get(
-  "/",
+  "/", jwtAuthenticate,
   procesarErrores((req, res) => {
-    return hotelController.foundHotel().populate('user').populate('reservation').then((hoteles) => {
+    return hotelController.foundHotel().then((hoteles) => {
       res.json(hoteles);
     });
   })
 );
+
+hotelRouter.get('/oneHotel/:id', jwtAuthenticate, procesarErrores((req, res) => {
+  let idHotel = req.params.id
+  return hotelController.foundOneHotel({id: idHotel}).then((hotel) => {
+    res.json(hotel);
+  })
+}))
 
 hotelRouter.post(
   "/create/:id",
@@ -37,6 +44,7 @@ hotelRouter.post(
     let idAdmin = req.params.id;
     let userAdmin;
     let rolUsuario = req.user.rol;
+    let hotelExistente;
 
     if (rolUsuario != "ROL_ADMINAPP") {
       log.info("El usuario no tiene el rol para esta accion");
@@ -50,9 +58,19 @@ hotelRouter.post(
         throw new RolInvalido('El usuario no tiene el rol para administrar un hotel')
     }
 
+    hotelExistente = await hotelController.foundOneHotel({name: nuevoHotel.name});
+
+    if(hotelExistente){
+      log.info('El hotel ya existe en la base de datos')
+      throw new HotelExistente();
+    }
+
     hotelController.createHotel(nuevoHotel, idAdmin).then((hotel) => {
         res.json(hotel)
         log.info("Hotel creado con exito")
+        userController.setHotel(idAdmin, hotel.id).then((setHotel) => {
+          log.info(`El hotel con id [${hotel.id}] ha sido agregado al administrador`)
+        })
     })
     
   })

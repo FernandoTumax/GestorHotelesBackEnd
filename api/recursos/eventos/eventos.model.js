@@ -7,7 +7,7 @@ const eventoSchema = new mongoose.Schema({
     required: [true, "El evento necesita un tipo"],
   },
   fecha: {
-    type: Date,
+    type: String,
     required: [true, "El evento necesita una fecha"],
   },
   horario: {

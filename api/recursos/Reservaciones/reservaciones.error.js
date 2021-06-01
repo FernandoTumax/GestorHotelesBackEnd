@@ -34,10 +34,20 @@ class HabitacionNoExiste extends Error{
   }
 }
 
+class ServicioNoExiste extends Error{
+  constructor(message){
+    super(message);
+    this.message = message || 'El servicio no existe en la base de datos';
+    this.status = 204
+    this.name = 'ServicioNoExiste'
+  }
+}
+
 
 module.exports = {
   FechaIncorrecta,
   ReservacionNoExiste,
   HotelNoExiste,
-  HabitacionNoExiste
+  HabitacionNoExiste,
+  ServicioNoExiste
 };

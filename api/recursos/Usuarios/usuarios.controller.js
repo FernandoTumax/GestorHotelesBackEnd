@@ -1,7 +1,7 @@
 const Usuario = require("./usuarios.model");
 
 function foundUser() {
-  return Usuario.find({});
+  return Usuario.find({}).populate('hotels').populate('history');
 }
 
 function createUser(user, hashedPassword) {
@@ -35,6 +35,10 @@ function setBills(id, idBills) {
   );
 }
 
+function setHotel(id, idHotel){
+  return Usuario.findOneAndUpdate({_id: id }, { $push: { hotels: idHotel } }, {new: true});
+}
+
 function setHistory(id, idHistory) {
   return Usuario.findOneAndUpdate(
     {
@@ -48,7 +52,7 @@ function setHistory(id, idHistory) {
 function existingUser(username, email) {
   return new Promise((resolve, reject) => {
     Usuario.find()
-      .or([{ username: username }, { email: email }])
+      .or([{ username: username }, { email: email }]).populate('hotels').populate('history')
       .then((usuarios) => {
         resolve(usuarios.length > 0);
       })
@@ -60,10 +64,10 @@ function existingUser(username, email) {
 
 function foundOneUser({ username: username, id: id }){
   if (username) {
-    return Usuario.findOne({ username: username });
+    return Usuario.findOne({ username: username }).populate('hotels').populate('history');
   }
   if (id) {
-    return Usuario.findById(id);
+    return Usuario.findById(id).populate('hotels').populate('history');
   }
   throw new Error(
     "Funcion obtener usuarios del controlador fue llamado sin especificar el username o id"
@@ -83,5 +87,6 @@ module.exports = {
   existingUser,
   setHistory,
   setBills,
-  foundUserAdminHotel
+  foundUserAdminHotel,
+  setHotel
 };

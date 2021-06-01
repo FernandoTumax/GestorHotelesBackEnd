@@ -12,6 +12,7 @@ const blueprintUser = Joi.object({
     .required(),
   _id: Joi.string().optional().allow(''),
   bills: Joi.array(),
+  hotel: Joi.array(),
   history: Joi.array()
 });
 
@@ -43,6 +44,7 @@ const blueprintLogin = Joi.object({
   lastname: Joi.string().optional().allow(''),
   rol: Joi.string().optional().allow(''),
   _id: Joi.string().optional().allow(''),
+  hotel: Joi.array().optional().allow(''),
   bills: Joi.array().optional().allow(''),
   history: Joi.array().optional().allow('')
 });
@@ -74,9 +76,10 @@ const blueprintUpdate = Joi.object({
   email: Joi.string().email().required(),
   bills: Joi.optional(),
   history: Joi.optional(),
+  hotels: Joi.allow('').optional(),
+  _id: Joi.allow('').optional(),
   rol: Joi.optional(),
   __v: Joi.optional(),
-  _id: Joi.optional()
 });
 
 let validarUpdate = (req, res, next) => {

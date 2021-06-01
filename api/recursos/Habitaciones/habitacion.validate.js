@@ -2,12 +2,14 @@ const Joi = require("@hapi/joi");
 const log = require("./../../../utils/logger");
 
 const blueprintRoom = Joi.object({
+  codigoHabitacion: Joi.string().max(100).required(),
   disponibilidad: Joi.string()
     .max(100)
     .valid("disponible", "ocupado")
     .required(),
-    descripcion: Joi.string().max(200).required(),
-  services: Joi.array().optional(),
+  descripcion: Joi.string().max(200).required(),
+  tipoHabitacion: Joi.string().valid('VIP', 'Suite', 'Normal').required(),
+  precio: Joi.number().positive().precision(2).required()
 });
 
 let validarRoom = (req, res, next) => {

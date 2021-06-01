@@ -4,6 +4,7 @@ const passport = require("passport");
 const log = require("../../../utils/logger");
 const validarServicio = require("./servicios.validate").validarServicio;
 const servicesController = require("./servicios.controller");
+const hotelController = require('./../Hoteles/hoteles.controller');
 const roomController = require('./../Habitaciones/habitacion.controller');
 const procesarErrores = require("./../../libs/errorHandler").procesarErrores;
 const {
@@ -48,19 +49,19 @@ servicesRouter.post(
   procesarErrores( async (req, res) => {
     let nuevoServicio = req.body;
     let rolUsuario = req.user.rol;
-    let idHabitacion = req.params.id;
+    let idHotel = req.params.id;
 
-    if (rolUsuario != "ROL_ADMINAPP") {
+    if (rolUsuario != "ROL_ADMINAPP" && rolUsuario != 'ROL_ADMINHOTEL') {
       log.info(
         "El usuario no tiene acceso a esta accion por que no tiene el rol respectivo"
       );
       throw new RolDelUsuarioIncorrecto();
     }
 
-    let habitacionExistente = await roomController.foundOneRoom({id: idHabitacion})
+    let hotelExistente = await hotelController.foundOneHotel({id: idHotel})
 
-    if(!habitacionExistente){
-      log.info(`La habitacion con id [${idHabitacion}] no existe`)
+    if(!hotelExistente){
+      log.info(`La habitacion con id [${idHotel}] no existe`)
       throw new HabitacionNoExiste()
 
     }
@@ -68,10 +69,10 @@ servicesRouter.post(
      servicesController
       .createServices(nuevoServicio)
       .then((serviceCreated) => {
-        res.status(201).send("Servicio creado con exito");
+        res.json(serviceCreated)
         log.info("Servicio creado")
-          roomController.setServices(idHabitacion, serviceCreated.id).then((servicioSeteado) => {
-            log.info(`La habitacion con id [${idHabitacion}] fue actualizada con su nuevo servicio`)
+          hotelController.setService(idHotel, serviceCreated.id).then((servicioSeteado) => {
+            log.info(`La habitacion con id [${idHotel}] fue actualizada con su nuevo servicio`)
           })
       });
   })

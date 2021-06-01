@@ -17,6 +17,7 @@ exports.procesarErroresDeDB = (err, req, res, next) => {
   next(err);
 };
 
+
 exports.erroresEnProduccion = (err, req, res, next) => {
   res.status(err.status || 500);
   res.send({
@@ -28,6 +29,6 @@ exports.erroresEnDesarrollo = (err, req, res, next) => {
   res.status(err.status || 500);
   res.send({
     message: err.message,
-    stack: err.stack || ""
+    stack: err.stack || ''
   });
 };

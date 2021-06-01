@@ -35,10 +35,13 @@ eventoRouter.post(
   [jwtAuthenticate, validarEvento],
   procesarErrores(async (req, res) => {
     let nuevoEvento = req.body;
-    let fecha = req.body.fecha;
+    let fechaString = req.body.fecha;
     let idHotel = req.params.id;
     let rolUser = req.user.rol;
     let hotel;
+    let fechaSinModificar = new Date(fechaString);
+    let fecha = fechaSinModificar.toLocaleDateString('en-US');
+
 
     hotel = await hotelController.foundOneHotel({ id: idHotel });
 
@@ -47,7 +50,7 @@ eventoRouter.post(
       throw new HotelNoExiste();
     }
 
-    if(rolUser != 'ROL_ADMINAPP'){
+    if(rolUser != 'ROL_ADMINAPP' && rolUser != 'ROL_ADMINHOTEL'){
       log.info('El usuario no tiene el rol adecuado')
       throw new RolInvalido(`El usuario no tiene el rol adecuado tiene: ${rolUser}`);
     }

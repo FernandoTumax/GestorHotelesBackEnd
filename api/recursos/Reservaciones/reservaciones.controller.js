@@ -4,11 +4,11 @@ function foundReservation() {
   return Reservacion.find({});
 }
 
-function setReservation(reservation, fechaIngreso, fechaSalida) {
+function setReservation(reservation, fechaIngreso, fechaSalida,idHotel, idRoom, idClient) {
   return new Reservacion({
     ...reservation,
-    fechaIngreso: Date.parse(fechaIngreso),
-    fechaSalida: Date.parse(fechaSalida),
+    fechaIngreso: fechaIngreso,
+    fechaSalida: fechaSalida
   }).save();
 }
 
